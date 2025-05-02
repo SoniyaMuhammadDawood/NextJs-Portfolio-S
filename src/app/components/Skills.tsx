@@ -23,13 +23,18 @@ const Skills = () => {
 
       },
       {
-        name:"Typescript/Javascript",
+        name:"Typescript",
         detail:"70%",
 
       },
       {
-        name:"Nodejs",
+        name:"Nextjs",
         detail:"60%",
+
+      },
+      {
+        name:"python",
+        detail:"90%",
 
       },
     
@@ -53,7 +58,7 @@ const Skills = () => {
               {skills.map((item, i)=>(
           <div key={i} className="p-4 w-full md:w-1/3 ">
               <div className="flex items-center mb-3">
-                <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
+                <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-teal-600 text-white flex-shrink-0">
                 
                 <FaCheckSquare className="text-lg font-bold text-white" />
     
@@ -64,9 +69,9 @@ const Skills = () => {
               </div>
     
               <div className="w-full h-1 rounded-lg bg-gray-500 ">
-                  <div className="w-[100%] h-1 rounded-lg bg-blue-500 "/>
+                  <div className="w-[100%] h-1 rounded-lg bg-teal-500 "/>
                 </div>
-                <h3 className="text-blue-500 text-sm text-right font-semibold tracking-tight">{item.detail}</h3>
+                <h3 className="text-teal-500 text-sm text-right font-semibold tracking-tight">{item.detail}</h3>
     
             </div>
         

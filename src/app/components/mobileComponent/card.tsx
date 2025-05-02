@@ -10,10 +10,10 @@ import { Button } from '../ui/button';
 
 function MobileCard() {
   return (
-    <div className=" h-[90vh] flex flex-col items-center justify-center">
-    <div data-aos="fade-up" className="card  bg-blue-100 glass w-80 p-5 flex flex-col justify-center items-center">
+    <div className=" h-[60vh] flex flex-col items-center justify-center">
+    <div data-aos="fade-up" className="card  glass w-98 p-12 flex flex-col justify-center items-center">
 
-    <Image src="/images/image.png" alt="profile-pic" width={300} height={300} className="rounded-md mx-auto"/>
+    <Image src="/images/image.png" alt="profile-pic" width={300} height={400} className="rounded-md mx-auto"/>
   <div className="card-body ">
 
     {/* Name here */}
@@ -55,8 +55,8 @@ function MobileCard() {
 
        {/* Download CV Button */}
        <Link href={"/Assets/cv/Curriculum Vitae.pdf"} className="mt-4 text-center justify-center" target="_blank">
-    <Button className="text-lg">
-      <FaCloudDownloadAlt className="mr-2 h-4 w-5" /> Download CV 
+    <Button className="text-xl mt-6">
+      <FaCloudDownloadAlt className="mr-2 h-4 w-5 " /> Download CV 
     </Button>
     </Link>
 

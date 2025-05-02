@@ -12,7 +12,7 @@ export function Sidebar() {
     <div className="h-screen flex flex-col justify-center items-center p-4">
      
     {/* Image */}
-    <Image src="/images/image.png" alt="profile-pic" width={300} height={300} className="rounded-md"/>
+    <Image src="/images/girl.png" alt="profile-pic" width={500} height={500} className="rounded-md h-[250px] w-[300px]"/>
 
     {/* Name here */}
    <div className="mt-2 -mx-1">
@@ -32,21 +32,21 @@ export function Sidebar() {
     <div className="mt-3 grid grid-cols-3 gap-2">
       {/* Linkedln */}
       <div className="mt-2">
-        <Link href="#" target="_blank " className=" text-gray-600 hover:text-[#0762C8]">
+        <Link href="#" target="_blank " className=" text-[#0762C8] hover:text-[#316fb6]">
       <FaLinkedin className="text-4xl "/>
       </Link>
       </div>
 
       {/* Vercel */}
       <div className="mt-2">
-        <Link href="#" target="_blank " className=" text-gray-600 hover:text-[#FF0000]">
+        <Link href="#" target="_blank " className=" text-[#FF0000] hover:text-[#fc4e4e]">
       <FaSquareYoutube className="text-4xl "/>
       </Link>
       </div>
 
       {/* GitHub */}
       <div className="mt-2">
-        <Link href="#" target="_blank " className=" text-gray-600 hover:text-[#6e5494]">
+        <Link href="#" target="_blank " className=" text-[#6e5494] hover:text-[#8b64c5]">
       <FaGithub className="text-4xl "/>
       </Link>
       </div>
@@ -55,7 +55,7 @@ export function Sidebar() {
 
     {/* Download CV Button */}
     <Link href={"/Assets/cv/Curriculum Vitae.pdf"} className="mt-4" target="_blank">
-    <Button className="hover:bg-blue-500">
+    <Button className="bg-teal-500  hover:bg-blue-500">
       <FaCloudDownloadAlt className="mr-2 h-4 w-4 " /> Download CV 
     </Button>
     </Link>

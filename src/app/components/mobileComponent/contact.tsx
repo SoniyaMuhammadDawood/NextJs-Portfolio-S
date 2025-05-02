@@ -3,7 +3,7 @@ import React from 'react'
 const MobileContact = () => {
   return (
     <div className="w-full p-5">
-         <h2 className="mb-4 scroll-m-20 border-b border-blue-500 pb-2 text-3xl font-semibold tracking-tight first:mt-0">Contact</h2>
+         <h2 className="mb-8 scroll-m-20 border-b border-blue-500 pb-2 text-3xl font-semibold tracking-tight first:mt-0">Contact</h2>
 
          
   <div className="container px-5  mx-auto flex sm:flex-nowrap flex-wrap">
@@ -76,7 +76,7 @@ const MobileContact = () => {
           defaultValue={""}
         />
       </div>
-      <button className="text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">
+      <button className="text-white bg-teal-500 border-0 py-2 px-6 focus:outline-none hover:bg-teal-400 rounded text-lg">
         Button
       </button>
 </div>
