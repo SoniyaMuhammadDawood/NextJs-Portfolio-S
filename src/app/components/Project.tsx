@@ -25,7 +25,7 @@ const Project= () => {
         {
           name:"E-commerce website",
           detail:"Photo booth fam kinfolk cold-pressed sriracha leggings jianbingmicrodosing tousled waistcoat cold-pressed sriracha leggings jianbingmicrodosing tousled waistcoat.",
-          link:"https://www.linkedin.com/posts/soniya-dawood-442436307_project-update-facebook-login-page-clone-activity-7249127998803595264-_CFR?utm_source=share&utm_medium=member_desktop",
+          link:"https://perfume-website-s.vercel.app/",
           image:"perfume.jpg",
         },
 
@@ -34,7 +34,7 @@ const Project= () => {
       name:"Blog Website",
       detail:"Photo booth fam kinfolk cold-pressed sriracha leggings jianbingmicrodosing tousled waistcoat cold-pressed sriracha leggings jianbingmicrodosing tousled waistcoat.",
       link:"https://blog-website-eta-umber.vercel.app/",
-      image:"Blog.jpg",
+      image:"blog.jpg",
     },
     // Travel website
     {

@@ -32,7 +32,7 @@ export function Sidebar() {
     <div className="mt-3 grid grid-cols-3 gap-2">
       {/* Linkedln */}
       <div className="mt-2">
-        <Link href="#" target="_blank " className=" text-[#0762C8] hover:text-[#316fb6]">
+        <Link href="https://www.linkedin.com/in/soniya-dawood-442436307/" target="_blank " className=" text-[#0762C8] hover:text-[#316fb6]">
       <FaLinkedin className="text-4xl "/>
       </Link>
       </div>
@@ -46,7 +46,7 @@ export function Sidebar() {
 
       {/* GitHub */}
       <div className="mt-2">
-        <Link href="#" target="_blank " className=" text-[#6e5494] hover:text-[#8b64c5]">
+        <Link href="https://github.com/SoniyaMuhammadDawood" target="_blank " className=" text-[#6e5494] hover:text-[#8b64c5]">
       <FaGithub className="text-4xl "/>
       </Link>
       </div>
@@ -54,8 +54,8 @@ export function Sidebar() {
     </div>
 
     {/* Download CV Button */}
-    <Link href={"/Assets/cv/Curriculum Vitae.pdf"} className="mt-4" target="_blank">
-    <Button className="bg-teal-500  hover:bg-blue-500">
+    <Link href={"/Resume.pdf"} className="mt-4" target="_blank">
+    <Button className="bg-teal-500  hover:bg-teal-400">
       <FaCloudDownloadAlt className="mr-2 h-4 w-4 " /> Download CV 
     </Button>
     </Link>

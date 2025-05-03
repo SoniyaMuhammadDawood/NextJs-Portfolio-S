@@ -19,11 +19,11 @@ import {
         <TabsList className="grid w-full grid-cols-5">
   
           {/* Tabs triger button */}
-          <TabsTrigger value="education">Education</TabsTrigger>
-          <TabsTrigger value="experience">Experience</TabsTrigger>
-          <TabsTrigger value="skills">Skills</TabsTrigger>
-          <TabsTrigger value="project">Project</TabsTrigger>
-          <TabsTrigger value="contact">Contact</TabsTrigger>
+          <TabsTrigger className="font-semibold text-base " value="education">Education</TabsTrigger>
+          <TabsTrigger className="font-semibold text-base" value="experience">Experience</TabsTrigger>
+          <TabsTrigger className="font-semibold text-base" value="skills">Skills</TabsTrigger>
+          <TabsTrigger className="font-semibold text-base" value="project">Project</TabsTrigger>
+          <TabsTrigger className="font-semibold text-base" value="contact">Contact</TabsTrigger>
         </TabsList>
           {/* Tabs content here */}
         

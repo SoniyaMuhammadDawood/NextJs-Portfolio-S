@@ -11,7 +11,7 @@ const Contact = () => {
   return (
          <Card data-aos="zoom-in" className="h-[85vh] overflow-y-auto ">
           <CardHeader>
-            <CardTitle className='text-2xl font-semibold tracking-tight uppercase'>Education</CardTitle>
+            <CardTitle className='text-2xl font-semibold tracking-tight uppercase'>Contact</CardTitle>
            
           </CardHeader>
           <CardContent className="space-y-2">
